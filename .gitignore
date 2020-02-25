@@ -1,5 +1,8 @@
 # Dependencies
 node_modules/
 
+# Generated files
+built/
+
 # OS X
 .DS_Store

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Some example TypeScript",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,5 +14,8 @@
     "url": "https://github.com/delventhalz/functional-typescript/issues"
   },
   "author": "Zac Delventhal <delventhalz@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.2"
+  }
 }
