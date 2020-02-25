@@ -1,14 +1,14 @@
-interface Velocity {
+export interface Velocity {
   angle: number;
   speed: number;
 }
 
-interface Vector {
+export interface Vector {
   x: number;
   y: number;
 }
 
-const toVector = ({ angle, speed }: Velocity): Vector => ({
+export const toVector = ({ angle, speed }: Velocity): Vector => ({
   x: Math.cos(angle) * speed,
   y: -Math.sin(angle) * speed,
 });
