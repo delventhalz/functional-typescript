@@ -10,3 +10,31 @@ export interface Predicate {
 export const negate = (predicate: Predicate): Predicate => (
   val => !predicate(val)
 );
+
+
+
+
+
+
+
+
+export function curry(fn) {
+  return function curried(...args) {
+    if (args.length >= fn.length) {
+      return fn(...args);
+    }
+
+    return curried.bind(null, ...args);
+  }
+}
+
+
+
+
+
+
+
+
+const inc = (n: number) => n + 1;
+
+const incced: number = curry(inc)(7);
