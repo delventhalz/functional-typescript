@@ -47,3 +47,11 @@ is always appreciated.
 For any follow up questions, I am known to lurk on
 [twitter](https://twitter.com/delventhalz) when I should be doing something
 productive with my life.
+
+## License
+
+The source code for this project is licensed for reuse under the
+[MIT](LICENSE) license.
+
+Slides and any original written material are licensed under
+[Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/).
