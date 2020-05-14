@@ -35,7 +35,7 @@ export function curry(fn) {
 
 
 
-const inc = (n: number) => n + 1;
+const inc = (n: number): number => n + 1;
 
 const eight = inc(7);
 
