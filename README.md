@@ -1,7 +1,8 @@
 # Functional TypeScript
 
-Example TypeScript from my talk delivered at ConFoo Montreal 2020 and
-JS Remote Conf 2020.
+Example TypeScript from my talk delivered at
+[ConFoo Montreal 2020](https://confoo.ca/en/yul2020) and
+[JS Remote Conf 2020](https://devchat.tv/conferences/javascript-remote-2020/).
 
 ## Setup
 
