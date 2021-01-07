@@ -4,5 +4,12 @@ module.exports = {
   },
   testRegex: '^.+\\.test\\.ts$',
   moduleFileExtensions: ['ts', 'js'],
-  verbose: true
+  verbose: true,
+  globals: {
+    'ts-jest': {
+      diagnostics: {
+        ignoreCodes: [7006]
+      }
+    }
+  }
 }
